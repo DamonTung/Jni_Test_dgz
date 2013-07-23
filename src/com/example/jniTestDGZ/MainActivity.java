@@ -21,7 +21,7 @@ public class MainActivity extends Activity {
 		testNativeC.encryption();
 		
 		TextView tv=new TextView(this);
-		tv.setText(Double.toString(testNativeC.encryption()));
+		tv.setText("生成100个128位秘钥所用时间为： "+Double.toString(testNativeC.encryption()));
 		setContentView(tv);
 	}
 	
